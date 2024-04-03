@@ -15,7 +15,8 @@ mostly people talk about web APIs when referring to APIs
   const upperCaseStr = str.toUpperCase();
   console.log(upperCaseStr); // Output: HELLO
 
-  - **to make code work in different operating systems**
+- **to make code work in different operating systems**
+
   For example:
   ```python
   """ Lists files and directories in the current working directory. """

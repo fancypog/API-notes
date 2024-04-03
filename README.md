@@ -15,11 +15,11 @@ mostly people talk about web APIs when referring to APIs
   const upperCaseStr = str.toUpperCase();
   console.log(upperCaseStr); // Output: HELLO
 
-  -to make code work in different operating systems
-For example:
+  - **to make code work in different operating systems**
+  For example:
+  ```python
   """ Lists files and directories in the current working directory. """
   import os
-
   current_dir = os.getcwd()
   for entry in os.listdir(current_dir):
     print(entry)

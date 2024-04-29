@@ -47,10 +47,18 @@ frameworks offer API for you to extend stuff
   - JSON is essential for creating and consuming an API
 
   ## JSON TYPES
-  - Strings  "Hello World" "Eyyy" "I"
-  - Numbers 32 5.2 -50 1.2e10
-  - Booleans true false
-  - null null
+  - Strings
+    ```JSON
+    "Hello World" "Eyyy" "I"
+  - Numbers
+    ```JSON
+    32 5.2 -50 1.2e10
+  - Booleans
+    ```JSON
+    true false
+  - null
+    ```JSON
+    null
   - Arrays
     ```JSON
     [1, 2, 3] ["Hello", "World"]

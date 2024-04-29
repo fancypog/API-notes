@@ -1,0 +1,19 @@
+{
+  "key surrounded by double quotes": "value is here. If more keys use a comma to seperate within an object",
+  "key2": "value2",
+  "name": "fancypog",
+  "favouriteNumber": 3
+},
+{
+  "hobbies": ["to create an array", "use brackets", "and inside, put any data types"],
+  "hobbies": ["Art making", "Writing", "And so on"],
+  "You can also nest objects in objects to show a hierachy of data": "See as the friends array below"
+},
+{
+  "friends": [{
+    "name": "Pineapple",
+    "colour": "Yellow",
+    "isProgrammer": false,
+    "friends": [...]
+  }]
+}

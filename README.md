@@ -66,3 +66,30 @@ frameworks offer API for you to extend stuff
   - ```JSON
     {"key": "value"} {"year": 2000}
   
+## Convert JSON string to JavaScript object
+- You use JSON.parse() to convert it, then access the object data
+- The following JavaScript example shows the process of conversion
+```JavaScript
+let companies = `[
+  {
+    "name": "Big Corporation",
+    "numberOfEmployees": 500,
+    "ceo": "Mary",
+    "rating": 3.6
+  },
+  {
+    "name": "Small Starup",
+    "numberOfEmployees": 3,
+    "ceo": null,
+    "rating": 3.5
+  }
+]
+`
+// You will see a string instead of an actual object which you cannot use in JavaScript
+console.log(companies)
+
+// Convert JSON string to JavaScript Object using JSON.parse
+console.log(JSON.parse(companies))
+
+// Print out the first name of the first company
+console.log(JSON.parse(companies)[0].name)

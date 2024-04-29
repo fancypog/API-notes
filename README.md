@@ -36,3 +36,25 @@ frameworks offer API for you to extend stuff
 - do that using a header
 - then the server respond with data and all HTTP headers (JSON)
 - HTTP Verbs are used in REST API requests (GET, POST, PUT, PATCH, DELETE)
+
+  # JSON
+  ## What is JSON
+  - JSON (JavaScript Object Notation) is a data representation format commonly used for APIs and Configs
+  - JSON is valid JavaScript
+
+  ## Why you should know JSON
+  - Most languages allow you to parse JSON strings into object/ classed into that language
+  - JSON is essential for creating and consuming an API
+
+  ## JSON TYPES
+  - Strings  "Hello World" "Eyyy" "I"
+  - Numbers 32 5.2 -50 1.2e10
+  - Booleans true false
+  - null null
+  - Arrays
+    ```JSON
+    [1, 2, 3] ["Hello", "World"]
+  - Objects
+  - ```JSON
+    {"key": "value"} {"year": 2000}
+  
